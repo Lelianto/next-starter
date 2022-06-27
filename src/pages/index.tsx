@@ -93,12 +93,12 @@ const Home: NextPage = () => {
       </div>
 
       <div className="relative h-screen w-full">
-        <main className="container absolute z-10 w-full h-full top-0 right-0 left-0 flex flex-col justify-center">
+        <main className="container absolute z-10 w-full h-full top-[25vh] right-0 left-0 flex flex-col justify-center">
           <h1 className="mb-5 text-2xl font-poppins">
             Our Tech Stack
           </h1>
 
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid md:grid-cols-4 md:gap-4">
             <OurTechStack title="Frontend" stacks={frontendStacks}/>
             <OurTechStack title="Backend" stacks={frontendStacks}/>
             <OurTechStack title="Design" stacks={frontendStacks}/>
