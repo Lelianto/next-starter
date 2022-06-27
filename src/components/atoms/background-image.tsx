@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import HomeBanner from '../../assets/home/HomeBanner.jpg'
 
-function getWindowDimensions() {
+const getWindowDimensions = () => {
   const { innerWidth: width, innerHeight: height } = window;
   return {
     width,
@@ -10,7 +10,7 @@ function getWindowDimensions() {
   };
 }
 
-function BGImage() {
+const BGImage = () => {
   const [width, setWidth] = useState<number>();
   const [height, setheight] = useState<number>();
 
