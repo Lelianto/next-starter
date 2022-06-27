@@ -73,7 +73,7 @@ const Home: NextPage = () => {
           <div className="text-center text-white font-poppins font-thin">
             we build what you need
           </div>
-          <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 text-white text-center mt-[40vh] md:mt-[60vh]">
+          <div className="grid grid-cols-2 gap-2 xl:grid-cols-4 xl:gap-4 text-white text-center mt-[40vh] xl:mt-[60vh]">
             <div className="flex justify-center">
               <div className="bg-gray-500 hover:bg-white hover:text-black bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins cursor-pointer">personal website</div>
             </div>
@@ -93,12 +93,12 @@ const Home: NextPage = () => {
       </div>
 
       <div className="relative h-screen w-full">
-        <main className="container absolute z-10 w-full h-full top-[25vh] right-0 left-0 flex flex-col justify-center">
+        <main className="container absolute z-10 w-full md:h-full top-[10vh] md:top-0 right-0 left-0 flex flex-col justify-center">
           <h1 className="mb-5 text-2xl font-poppins">
             Our Tech Stack
           </h1>
 
-          <div className="grid md:grid-cols-4 md:gap-4">
+          <div className="grid sm:grid-cols-2 sm:gap-2 xl:grid-cols-4 xl:gap-4">
             <OurTechStack title="Frontend" stacks={frontendStacks}/>
             <OurTechStack title="Backend" stacks={frontendStacks}/>
             <OurTechStack title="Design" stacks={frontendStacks}/>

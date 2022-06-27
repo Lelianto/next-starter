@@ -17,7 +17,7 @@ const OurTechStack: NextPage<TechStackProps> = ({ title, stacks }) => {
 	return (
 		<>
 			<div>
-				<div className="font-poppins text-lg mb-3">
+				<div className="font-poppins text-lg my-3">
 					{title}
 				</div>
 				<div className="grid grid-cols-2 gap-2">
