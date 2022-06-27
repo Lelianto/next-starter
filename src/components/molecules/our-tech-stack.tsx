@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Image, { StaticImageData } from 'next/image'
+import { StaticImageData } from 'next/image'
 import TechStack from '../atoms/tech-stack'
 
 interface StackProps {

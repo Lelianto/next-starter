@@ -6,7 +6,7 @@ import NextJS from '../assets/home/tech-stack/NextJS.png'
 import VueJS from '../assets/home/tech-stack/VueJS.png'
 import NuxtJS from '../assets/home/tech-stack/NuxtJS.svg'
 import JS from '../assets/home/tech-stack/JS.png'
-import TypeScript from '../assets/home/tech-stack/TypeScript.png'
+import TypeScript from '../assets/home/tech-stack/Typescript.png'
 import TailwindCSS from '../assets/home/tech-stack/TailwindCSS.png'
 import OurTechStack from '../components/molecules/our-tech-stack'
 
