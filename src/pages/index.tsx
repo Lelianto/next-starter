@@ -28,16 +28,16 @@ const Home: NextPage = () => {
           </div>
           <div className={'grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 text-white text-center mt-[40vh] md:mt-[60vh]'}>
             <div className={'flex justify-center'}>
-              <div className={'bg-gray-500 bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins'}>personal website</div>
+              <div className={'bg-gray-500 hover:bg-white hover:text-black bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins cursor-pointer'}>personal website</div>
             </div>
             <div className={'flex justify-center'}>
-              <div className={'bg-gray-500 bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins'}>company website</div>
+              <div className={'bg-gray-500 hover:bg-white hover:text-black bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins cursor-pointer'}>company website</div>
             </div>
             <div className={'flex justify-center'}>
-              <div className={'bg-gray-500 bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins'}>marketplace</div>
+              <div className={'bg-gray-500 hover:bg-white hover:text-black bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins cursor-pointer'}>marketplace</div>
             </div>
             <div className={'flex justify-center'}>
-              <div className={'bg-gray-500 bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins'}>custom website</div>
+              <div className={'bg-gray-500 hover:bg-white hover:text-black bg-opacity-30 w-full md:w-2/3 h-16 leading-16 rounded-md font-poppins cursor-pointer'}>custom website</div>
             </div>
           </div>
         </main>
