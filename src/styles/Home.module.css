@@ -12,6 +12,13 @@
   align-items: center;
 }
 
+.bgBanner {
+  background-image: url('../assets/home/HomeBanner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .footer {
   display: flex;
   flex: 1;

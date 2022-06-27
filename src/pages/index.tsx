@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import dynamic from 'next/dynamic'
 import ReactJS from '../assets/home/tech-stack/ReactJS.png'
 import NextJS from '../assets/home/tech-stack/NextJS.png'
 import VueJS from '../assets/home/tech-stack/VueJS.png'
@@ -9,10 +8,7 @@ import JS from '../assets/home/tech-stack/JS.png'
 import TypeScript from '../assets/home/tech-stack/Typescript.png'
 import TailwindCSS from '../assets/home/tech-stack/TailwindCSS.png'
 import OurTechStack from '../components/molecules/our-tech-stack'
-
-const BGImage = dynamic(() => import("../components/atoms/background-image"), {
-  ssr: false,
-});
+import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   const frontendStacks = [
@@ -64,8 +60,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="relative h-screen w-full">
-        <main className="container absolute z-10 w-full h-full top-0 right-0 left-0 mt-[10vh]">
+      <div className={[styles.bgBanner, 'relative h-screen w-full'].join(' ')}>
+        <main className='container relative z-10 w-full h-full pt-[10vh]'>
           <h1 className="text-white text-[40px] md:text-[60px] text-center font-poppins">
             welcome to <span className={'text-[#24c4f5f7]'}>jasa</span>lova!
           </h1>
@@ -88,12 +84,10 @@ const Home: NextPage = () => {
             </div>
           </div>
         </main>
-
-        <BGImage />
       </div>
 
       <div className="relative h-screen w-full">
-        <main className="container absolute z-10 w-full md:h-full top-[10vh] md:top-0 right-0 left-0 flex flex-col justify-center">
+        <main className="container relative z-10 w-full md:h-full pt-[5vh] md:top-0 flex flex-col justify-center">
           <h1 className="mb-5 text-2xl font-poppins">
             Our Tech Stack
           </h1>

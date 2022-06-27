@@ -33,12 +33,10 @@ const BGImage = () => {
 
   if (width && height) {
     return (
-      <div className="absolute z-0 top-0 max-h-screen">
+      <div className="absolute z-0 top-0 max-h-screen w-screen">
         <Image
           src={HomeBanner}
-          width={width}
-          height={height}
-          className="max-h-screen"
+          className="h-screen max-h-screen w-screen"
           alt={'alt'}
         />
       </div>
